@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}
+    {{ username }}
+{% endblock title %}
+
+{% block content %}
+    <div id="user-profile" class="w-11/12 mx-auto md:flex md:gap-10 my-5">
+        <div class="md:w-4/12" id="profile-left-side-bar" class="" data-userid="{{ userId }}" data-requserid="{{ request.user.id }}"></div>
+        <div class="md:w-8/12" id="profile-component" class="" data-userid="{{ userId }}" data-requserid="{{ request.user.id }}"></div>
+    </div>
+{% endblock content %}

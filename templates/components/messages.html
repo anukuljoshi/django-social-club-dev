@@ -1,0 +1,21 @@
+<div class="font-koho text-sm">
+    {% for msg in messages %}
+        {% if msg.tags == 'success' %}
+            <div class="text-green-600">
+                {{ msg }}
+            </div>
+        {% elif msg.tags == 'error' %}
+            <div class="text-red-600">
+                {{ msg }}
+            </div>
+        {% elif msg.tags == 'info' %}
+            <div class="text-blue-600">
+                {{ msg }}
+            </div>
+        {% elif msg.tags == 'warning' %}
+            <div class="text-yellow-600">
+                {{ msg }}
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>

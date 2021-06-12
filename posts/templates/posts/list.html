@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	<div id="post" class="w-11/12 mx-auto md:flex md:gap-10 my-5">
+		<div class="hidden md:block md:w-4/12" id="post-left-sidebar" data-userid="{{ request.user.id }}" data-requserid="{{ request.user.id }}"></div>
+		<div class="md:w-8/12" id="post-component" data-userid="{{ request.user.id }}" data-requserid="{{ request.user.id }}"></div>
+	</div>
+{% endblock content %}
