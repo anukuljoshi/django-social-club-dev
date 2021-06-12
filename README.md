@@ -9,10 +9,10 @@
 
 ## Screenshots
 
-[main](https://github.com/anukuljoshi/django-social-club-dev/blob/main/screenshots/desktop_home.png)
+![main](https://github.com/anukuljoshi/django-social-club-dev/blob/main/screenshots/desktop_home.png)
 
-[user posts](https://github.com/anukuljoshi/django-social-club-dev/blob/main/screenshots/desktop_post.png)
+![user posts](https://github.com/anukuljoshi/django-social-club-dev/blob/main/screenshots/desktop_post.png)
 
-[user followers](https://github.com/anukuljoshi/django-social-club-dev/blob/main/screenshots/desktop_follower.png)
+![user followers](https://github.com/anukuljoshi/django-social-club-dev/blob/main/screenshots/desktop_follower.png)
 
-[edit](https://github.com/anukuljoshi/django-social-club-dev/blob/main/screenshots/desktop_edit.png)
+![edit](https://github.com/anukuljoshi/django-social-club-dev/blob/main/screenshots/desktop_edit.png)
